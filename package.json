@@ -1,0 +1,20 @@
+{
+  "name": "callisto-multiwallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "truffle compile",
+    "deploy": "truffle migrate",
+    "start": "cd node_modules/multisig-wallet-gnosis/dapp && npm i && npm start"
+  },
+  "author": "Yohan Graterol",
+  "license": "MIT",
+  "dependencies": {
+    "multisig-wallet-gnosis": "git+https://github.com/gnosis/MultiSigWallet.git"
+  }
+}
