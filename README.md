@@ -11,6 +11,8 @@ Yohan Graterol @yograterol: `0x4667d0c30E6f58ef935ddAb560d41E030E4d2AeB`
 
 This wallet uses https://github.com/gnosis/MultiSigWallet.
 
+Each transaction will require two confirmations.
+
 ## Install
 
 First clone the repo.
